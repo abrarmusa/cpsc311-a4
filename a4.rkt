@@ -1,5 +1,17 @@
 #lang plai
 
+;Student #1, Name: Abrar Musa
+;Student #1, ugrad.cs.ubc.ca login: i1u9a
+;Student #1, ID: 48915086
+
+;Student #2, Name: Yousef Mirza
+;Student #2, ugrad.cs.ubc.ca login: y9r8
+;Student #2, ID: 54327127
+
+;Student #3, Name: Kevin Tran
+;Student #3, ugrad.cs.ubc.ca login: j1e9
+;Student #3, ID: 31609126
+
 ; a4.rkt -- a4 Problems 1 and 2
 ; CPSC 311 2015W1 assignment 4
 ;
@@ -1345,9 +1357,9 @@
 
 
 
-
-  ...
-  ---------------------------------------------------------
+  ------------- Sub-int-rat       -------------- Sub-refl
+   Int <: Rat                     Bool <: Bool
+  --------------------------------------------------------- ??Sub-twist
                (Int * Bool) <: (Bool * Rat)
 |#
 
@@ -1361,7 +1373,7 @@
   which are bound in ePaircase below.
 |#
 
-(define part1b-e (num 0))   ; replace num 0 with your expression e
+(define part1b-e (pair-case (ite  (id 'x2) (pair (bfalse) (num 3.0)) (pair (id 'x1) (id 'x2))) 'x1  'x2 (ite (id 'x1) (id 'x2) (id 'x2))))   ; replace num 0 with your expression e
 
 (define ePaircase (pair-case (pair (num -3) (bfalse)) 'x1 'x2 part1b-e))
 
@@ -1410,5 +1422,4 @@
 "should fail:"
 (subtype-parse '{Record {x Int}         {z Rat}}
                '{Record {x Pos} {y Pos} {z Rat}})  ; should fail (width reversed)
-
 
