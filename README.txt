@@ -17,23 +17,37 @@ Student #3, Name: Kevin Tran
 Student #3, ugrad.cs.ubc.ca login: j1e9
 Student #3, ID: 31609126
 
-
 Project: A4
 
 Acknowledgment that you understand and have followed the course's
 collaboration policy (READ IT at
 http://www.ugrad.cs.ubc.ca/~cs311/current/_syllabus.php#Collaboration_Policy):
 
-Signed: ABRAR MUSA
+Signed: Abrar Musa, Yousef Mirza, Kevin Tran
 
 =================== BODY =======================
 
 Plese fill in each of the following:
 
-Approximate hours on the assignment: 12
+Approximate hours on the assignment: 30
 
-Acknowledgment of assistance (per the collab policy!): DLC Help
+Acknowledgment of assistance (per the collab policy!): piazza, TA office hours
 
-For teams, rough breakdown of work:
+For teams, rough breakdown of work: 
 
-We worked on all parts of the assignment together and did pair programming.
+All work was shared equally. Everyone had a part in everything.
+
+
+What's something cool, interesting, frustrating, or tangentially relevant that this assignment made you think about?
+This assignment made us think about angels and demons.
+
+What was the best part of this assignment?
+Writing README
+
+What was the worst part of this assignment?
+The rest of the assignment
+
+TODO: Document any additional issues about your submission you feel
+might be important.
+
+N/A
